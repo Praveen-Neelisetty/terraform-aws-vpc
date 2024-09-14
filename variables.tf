@@ -118,5 +118,5 @@ variable "acceptor_vpc_id" {
 
 variable "vpc_peering_tags" {
   type    = map(any)
-  default = ""
+  default = {}
 }
